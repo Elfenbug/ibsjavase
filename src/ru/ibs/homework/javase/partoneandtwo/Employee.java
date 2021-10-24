@@ -1,4 +1,4 @@
-package ru.ibs.homework.javase.partone;
+package ru.ibs.homework.javase.partoneandtwo;
 
 public abstract class Employee {
     private String name;
@@ -7,6 +7,9 @@ public abstract class Employee {
     public Employee(String name, int grade) {
         this.name = name;
         this.grade = grade;
+    }
+
+    public Employee() {
     }
 
     public String getName() {

@@ -1,4 +1,4 @@
-package ru.ibs.homework.javase.partone;
+package ru.ibs.homework.javase.partoneandtwo;
 
 public class Trainee extends Employee {
     private boolean learnInUniversity;

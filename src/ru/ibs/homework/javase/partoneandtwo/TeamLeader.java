@@ -1,4 +1,4 @@
-package ru.ibs.homework.javase.partone;
+package ru.ibs.homework.javase.partoneandtwo;
 
 import java.util.List;
 
@@ -30,7 +30,7 @@ public class TeamLeader extends Employee implements Manager {
 
     public static int countProjects(TeamLeader teamLeader) {
         int countProjects = 0;
-        for(String project : teamLeader.projects) {
+        for (String project : teamLeader.projects) {
             countProjects++;
         }
         return countProjects;

@@ -1,6 +1,5 @@
-package ru.ibs.homework.javase.partone;
+package ru.ibs.homework.javase.partoneandtwo;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Developer extends Employee {
